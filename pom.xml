@@ -41,6 +41,11 @@
 			<version>1.16.10</version>
 			<scope>provided</scope>
 		</dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.36</version>
+		</dependency>
 	</dependencies>
  
 	<build>
@@ -79,7 +84,7 @@
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>pl.net.divo.blog.BlogApplication</mainClass>
+									<mainClass>pl.net.divo.crm.CrmApplication</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

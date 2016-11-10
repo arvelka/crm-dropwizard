@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class BlogConfiguration extends Configuration {
+public class CrmConfiguration extends Configuration {
 	@Valid
 	@NotNull
 	@JsonProperty

@@ -1,0 +1,17 @@
+database:
+  # the name of your JDBC driver
+  driverClass: com.mysql.jdbc.Driver
+
+ # the JDBC URL
+  url: jdbc:mysql://172.17.0.5:3306/crm
+
+  # the username
+  user: root
+
+  # the password
+  password: ""
+
+server:
+  applicationConnectors:
+  - type: http
+    port: 8080
